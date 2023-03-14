@@ -1,0 +1,28 @@
+#b1 {
+     width: fit-content;
+    text-align: center; 
+    display: flex;
+    color: rgb(21, 21, 251);
+}
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+#submit {
+	
+    color: black;
+    background-color: #8292b2;
+    padding: 10px;
+}
+
+#submit:hover {
+	background: #719aec;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+#d{
+    background-color: rgb(192, 175, 153);
+}
