@@ -1,0 +1,33 @@
+<!-- 
+  <h1 style="text-align: center;font-family: 'Shantell Sans', cursive;background-color: rgb(196, 196, 143);" >HERE WE ARE!</h1>
+    <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+        <div class="card" *ngFor="let i of myData">
+          <img [src]="i.Image" />
+          <div class="info">
+            <h1>{{ i.name }}</h1>
+            <p>{{ i.desc }}</p>
+            
+            <button (click)="gotohere(i.id)">view more</button>        
+            
+      
+          </div>
+        </div>
+      </div> -->
+
+
+      <h1 style="text-align: center;font-family: 'Shantell Sans', cursive;background-color: rgb(196, 196, 143);" >HERE WE ARE!</h1>
+    <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+        <div class="card" *ngFor="let i of myData">
+          <img [src]="i.Image" />
+          <div class="info">
+            <h1>{{ i.name }}</h1>
+            <p>{{ i.desc }}</p>
+           
+            <button (click)="gotohere(i.id)">view more</button>        
+            
+      
+          </div>
+        </div>
+      </div>
+      
+      

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "miniproject-5a60b": {
+      "hosting": {
+        "cats": [
+          "miniproject-5a60b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "miniproject-5a60b"
+  }
+}

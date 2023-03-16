@@ -1,0 +1,254 @@
+
+  
+ 
+
+
+@keyframes cycle2 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  16% {
+    top: -325px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle3 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  36% {
+    top: -325px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  60% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle4 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  56% {
+    top: -325px;
+    opacity: 0;
+  }
+  60% {
+    top: 0px;
+    opacity: 1;
+  }
+  64% {
+    top: 0px;
+    opacity: 1;
+  }
+  76% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  80% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  81% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle5 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  76% {
+    top: -325px;
+    opacity: 0;
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+  }
+  84% {
+    top: 0px;
+    opacity: 1;
+  }
+  96% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  100% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+.carousel {
+	margin-top: 30px;
+	background-position: left;
+	display: flex;
+	gap: .7em;
+	padding: 8px; 
+	
+  /* adds scrolling for the element: */
+	overflow-x: scroll;
+  /* removes the horizontal scrollbar: */
+	scrollbar-width: none;
+  }
+  
+  .carousel--item {
+  /* carousel item should have min-width declared: */
+	min-width: 360px;
+  /* carousel item should have defined height: */
+	height: 540px;
+	
+	border-radius: .4em;
+	background-position: left;
+	background-size: cover;
+	opacity: 0.85;
+	transition: 300ms ease;
+  }
+  
+  .carousel--item:hover {
+	opacity: 1;
+	scale: 1.01;
+	transform-origin: bottom;
+  }
+  
+  .carousel--item:focus-visible {
+	opacity: 1;
+	scale: 1.01;
+	transform-origin: bottom;
+	outline: 2px solid orange;
+	outline-offset: 2px;
+  }
+  
+  .three {
+	background-image: url('https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+  }
+  
+  .two {
+	background-image: url('https://images.pexels.com/photos/1521306/pexels-photo-1521306.jpeg?cs=srgb&dl=pexels-kirsten-b%C3%BChne-1521306.jpg&fm=jpg');
+  }
+  
+  .one {
+	background-image: url('https://w0.peakpx.com/wallpaper/234/475/HD-wallpaper-cat-black-cats-eyes-kitten-butterfly.jpg');
+  }
+  
+  .four {
+	background-image: url('https://images.unsplash.com/photo-1628619688723-e56054cc9c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80g');
+  }
+  
+  .five {
+	background-image: url('https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?cs=srgb&dl=pexels-henda-watani-320014.jpg&fm=jpg');
+  }
+  
+  body {
+	background-color: BlanchedAlmond;
+  }
+
+.h1{
+	background-color: rgb(28, 27, 26);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
